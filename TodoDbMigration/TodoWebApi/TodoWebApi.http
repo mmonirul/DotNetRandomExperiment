@@ -1,0 +1,27 @@
+@TodoWebApi_HostAddress = http://localhost:5022
+
+GET {{TodoWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET https://todo-api-migration-gdg5gmapb5fhh5fk.swedencentral-01.azurewebsites.net/cars
+Accept: application/json
+
+###
+# Get all car owners
+GET https://todo-api-migration-gdg5gmapb5fhh5fk.swedencentral-01.azurewebsites.net/CarOwners
+Accept: application/json
+
+###
+# Create a new car owner
+POST https://todo-api-migration-gdg5gmapb5fhh5fk.swedencentral-01.azurewebsites.net/CarOwners
+Content-Type: application/json
+
+{
+  "name": "Jane Smith",
+  "email": "jane.smith@example.com",
+  "phoneNumber": "+1-555-0124",
+  "carId": 101
+}
+

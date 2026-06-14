@@ -1,0 +1,81 @@
+### CarOwners API Tests
+
+# Get all car owners
+GET https://localhost:7270/CarOwners
+Accept: application/json
+
+###
+
+# Get car owner by ID
+GET https://localhost:5001/CarOwners/1
+Accept: application/json
+
+###
+
+# Get car owner by Car ID
+GET https://localhost:5001/CarOwners/by-car/101
+Accept: application/json
+
+###
+
+# Create a new car owner
+POST https://localhost:5001/CarOwners
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phoneNumber": "+1-555-0123",
+  "carId": 101
+}
+
+###
+
+# Update car owner
+PUT https://localhost:5001/CarOwners/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "John Smith",
+  "email": "john.smith@example.com",
+  "phoneNumber": "+1-555-0124",
+  "carId": 101
+}
+
+###
+
+# Delete car owner
+DELETE https://localhost:5001/CarOwners/1
+
+###
+
+# Get all cars with their owners
+GET https://localhost:5001/CarOwners/cars-with-owners
+Accept: application/json
+
+###
+
+# Test creating owner for non-existent car (should fail)
+POST https://localhost:5001/CarOwners
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "phoneNumber": "+1-555-0125",
+  "carId": 999
+}
+
+###
+
+# Test creating duplicate owner for same car (should fail)
+POST https://localhost:5001/CarOwners
+Content-Type: application/json
+
+{
+  "name": "Bob Wilson",
+  "email": "bob.wilson@example.com",
+  "phoneNumber": "+1-555-0126",
+  "carId": 101
+}
