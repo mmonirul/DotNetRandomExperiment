@@ -1,0 +1,6 @@
+{
+  "Greeting": "Hallo",
+  "Processing": "Daten werden verarbeitet...",
+  "Error": "Ein Fehler ist aufgetreten",
+  "Progress": "Framsteg: {0}% slutfört"
+}

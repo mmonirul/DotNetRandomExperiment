@@ -1,0 +1,6 @@
+{
+  "Greeting": "Hello",
+  "Processing": "Processing data...",
+  "Progress": "Progress: {0}% complete",
+  "Error": "An error occurred"
+}

@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvBasedLocalization", "CsvBasedLocalization\CsvBasedLocalization.csproj", "{BDA9B0A5-AE7B-42B4-B284-E82BB16A4737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToResxLocalizationApp", "JsonToResxLocalizationApp\JsonToResxLocalizationApp.csproj", "{E2F4EF8C-A62C-4141-87E3-26A2C190B012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizerWorkerService", "LocalizerWorkerService\LocalizerWorkerService.csproj", "{21C06469-485E-45E3-9BCD-3C68A08CBEB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDA9B0A5-AE7B-42B4-B284-E82BB16A4737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA9B0A5-AE7B-42B4-B284-E82BB16A4737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA9B0A5-AE7B-42B4-B284-E82BB16A4737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA9B0A5-AE7B-42B4-B284-E82BB16A4737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F4EF8C-A62C-4141-87E3-26A2C190B012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F4EF8C-A62C-4141-87E3-26A2C190B012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F4EF8C-A62C-4141-87E3-26A2C190B012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F4EF8C-A62C-4141-87E3-26A2C190B012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C06469-485E-45E3-9BCD-3C68A08CBEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C06469-485E-45E3-9BCD-3C68A08CBEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C06469-485E-45E3-9BCD-3C68A08CBEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C06469-485E-45E3-9BCD-3C68A08CBEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DF4913D-60D9-4CD5-9479-19DB23C44094}
+	EndGlobalSection
+EndGlobal

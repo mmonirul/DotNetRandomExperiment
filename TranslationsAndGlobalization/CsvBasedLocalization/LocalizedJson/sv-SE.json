@@ -1,0 +1,8 @@
+{
+  "Greeting": "Hej",
+  "Farewell": "Adjö",
+  "WelcomeMessage": "Välkommen till vår applikation!",
+  "DateFormat": "yyyy-MM-dd",
+  "ThankYou": "Tack för att du använder vår tjänst.",
+  "ItemsCount": "Du har {0} objekt i din kundvagn."
+}

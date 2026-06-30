@@ -1,0 +1,8 @@
+{
+  "Greeting": "Hello",
+  "Farewell": "Goodbye",
+  "WelcomeMessage": "Welcome to our application!",
+  "DateFormat": "MM/dd/yyyy",
+  "ThankYou": "Thank you for using our service.",
+  "ItemsCount": "You have {0} items in your cart."
+}
