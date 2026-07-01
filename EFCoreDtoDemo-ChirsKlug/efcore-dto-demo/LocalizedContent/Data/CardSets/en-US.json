@@ -1,0 +1,26 @@
+{
+  "Id": 0,
+  "OwnerId": 1,
+  "Locale": "en-US",
+  "Cards": [
+    {
+      "CardType": 2,
+      "Content": "This is a short description."
+    },
+    {
+      "CardType": 0,
+      "Content": [
+        {
+          "Id": 0,
+          "Name": "Accreditation 1",
+          "ImageUrl": null
+        },
+        {
+          "Id": 0,
+          "Name": "Accreditation 2",
+          "ImageUrl": null
+        }
+      ]
+    }
+  ]
+}
