@@ -1,0 +1,6 @@
+@TransactionalOutboxKafka_HostAddress = http://localhost:5092
+
+GET {{TransactionalOutboxKafka_HostAddress}}/invoices/
+Accept: application/json
+
+###
